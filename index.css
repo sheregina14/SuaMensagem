@@ -1,0 +1,156 @@
+
+
+
+:root {
+    
+    -colorPurple: c;
+    -colorGrey: rgb(87, 87, 87);
+}
+
+.container1 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century Gothic;
+    color: var(-colorPurple);
+    min-width: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    
+   
+}
+
+.container1 span {
+    animation-name:AAAAA;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+.container1 span:nth-of-type(2) {
+    animation-delay: 0.25s;
+}
+
+.container1 span:nth-of-type(3) {
+    animation-delay: 0.50s;
+}
+
+.container1 span:nth-of-type(4) {
+    animation-delay: 0.75s;
+}
+.container1 span:nth-of-type(5) {
+    animation-delay: 1s;
+}
+.container1 span:nth-of-type(6) {
+    animation-delay: 1.50s;
+}
+
+@keyframes AAAAA {
+    0% {
+        color: #fff;
+        text-shadow: 0px 0px  12px var(-colorPurple),
+        0 0 50px var(-colorPurple),
+        0 0 100px var(-colorPurple); 
+    }
+    10%, 90% {
+        color:var(-colorGrey);
+        text-shadow: none;
+
+    }
+}
+
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box  ;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
+.box {
+    position: relative;
+    width: 590px;
+    height:380px;
+    background-color:#000508;
+    border: radius 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}   
+
+.box::before {
+    content: "";   
+    position: absolute;
+    width: 100px;
+    height:200%;
+    background: linear-gradient(180deg, #07e2f1,#eb9b05);
+
+   
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box::after{
+    content: "";
+    position: absolute;
+    background-color: #000508;
+    
+    inset: 5px;
+    border-radius:inherit;
+}
+
+ 
+
+  p1 {
+    color: #070707;
+    font-size: 20px;
+    border-style: solid;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    margin-top: 100px;
+    border-top: 30px solid blue;
+    border-bottom: 30px solid blue;;
+    background-color: rgb(211, 213, 214);  
+    border-width: 8px; 
+    
+   
+}
+  
+
+  p2 {
+    color: #5b06e4;
+    font-style: italic;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+
+ 
+
+  

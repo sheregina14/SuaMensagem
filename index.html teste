@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mensagem com Imagem</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+      font-size: 28px;
+    }
+
+    p {
+      color: #666;
+      line-height: 1.5;
+      text-align: justify;
+      font-size: 16px;
+    }
+
+    .signature {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .image-container {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mensagem com Imagem</h1>
+    <p>Querido(a) [Nome da Pessoa Especial],</p>
+    <p>Escreva aqui a sua mensagem especial, expressando seus sentimentos e apreciação pela pessoa.</p>
+    <p>Exemplo: Você é uma pessoa incrível, cheia de qualidades admiráveis. Sua presença em minha vida traz alegria e felicidade a cada dia.</p>
+    <p>Exemplo: Obrigado(a) por ser quem você é e por tornar o mundo um lugar melhor apenas com a sua existência.</p>
+    <div class="image-container">
+      <img src="caminho/para/sua/imagem.jpg" alt="Imagem Especial">
+    </div>
+    <div class="signature">
+      <p>Com todo o meu amor,</p>
+      <p>[Seu Nome]</p>
+    </div>
+  </div>
+</body>
+</html>
